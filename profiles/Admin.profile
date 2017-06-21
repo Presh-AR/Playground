@@ -55,6 +55,26 @@
         <default>false</default>
         <visible>true</visible>
     </applicationVisibilities>
+    <classAccesses>
+        <apexClass>EmailManager</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>EmailManager_Dup1</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>EmailManager_Dup2</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>StringArrayTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>TestRestrictContactByName</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
     <custom>false</custom>
     <fieldPermissions>
         <editable>true</editable>
@@ -120,6 +140,11 @@
         <editable>true</editable>
         <field>Account.Jigsaw</field>
         <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.My_Custom_Field__c</field>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -232,6 +257,21 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Asset.AssetLevel</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Asset.AssetProvidedById</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Asset.AssetServicedById</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Asset.ContactId</field>
         <readable>true</readable>
@@ -250,6 +290,11 @@
         <editable>true</editable>
         <field>Asset.IsCompetitorProduct</field>
         <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Asset.IsInternal</field>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -300,6 +345,11 @@
         <editable>true</editable>
         <field>Asset.UsageEndDate</field>
         <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>AssetRelationship.RelationshipType</field>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -1716,6 +1766,10 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
+        <name>ContentWorkspaces</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
         <name>ConvertLeads</name>
     </userPermissions>
     <userPermissions>
@@ -1844,6 +1898,10 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
+        <name>EnableCommunityAppLauncher</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
         <name>EnableNotifications</name>
     </userPermissions>
     <userPermissions>
@@ -1865,6 +1923,10 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>InstallPackaging</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>LightningConsoleAllowedForUser</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -1893,6 +1955,10 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>ManageCategories</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ManageCertificates</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -2089,6 +2155,14 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>SubmitMacrosAllowed</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>SubscribeReportToOtherUsers</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>SubscribeReportsRunAsUser</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
