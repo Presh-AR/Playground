@@ -1,14 +1,68 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Package xmlns="http://soap.sforce.com/2006/04/metadata">
-    <version>39.0</version>
+<?xml version="1.0" encoding="UTF-8"?><Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
         <members>AutoRabitAntigoniTest</members>
+        <members>ChangePasswordController</members>
+        <members>ChangePasswordControllerTest</members>
+        <members>CommunitiesLandingController</members>
+        <members>CommunitiesLandingControllerTest</members>
+        <members>CommunitiesLoginController</members>
+        <members>CommunitiesLoginControllerTest</members>
+        <members>CommunitiesSelfRegConfirmController</members>
+        <members>CommunitiesSelfRegConfirmControllerTest</members>
+        <members>CommunitiesSelfRegController</members>
+        <members>CommunitiesSelfRegControllerTest</members>
         <members>EmailManager</members>
         <members>EmailManager_Dup1</members>
         <members>EmailManager_Dup2</members>
+        <members>ForgotPasswordController</members>
+        <members>ForgotPasswordControllerTest</members>
+        <members>LightningForgotPasswordController</members>
+        <members>LightningForgotPasswordControllerTest</members>
+        <members>LightningLoginFormController</members>
+        <members>LightningLoginFormControllerTest</members>
+        <members>LightningSelfRegisterController</members>
+        <members>LightningSelfRegisterControllerTest</members>
+        <members>MyProfilePageController</members>
+        <members>MyProfilePageControllerTest</members>
+        <members>SiteLoginController</members>
+        <members>SiteLoginControllerTest</members>
+        <members>SiteRegisterController</members>
+        <members>SiteRegisterControllerTest</members>
         <members>StringArrayTest</members>
         <members>TestRestrictContactByName</members>
         <name>ApexClass</name>
+    </types>
+    <types>
+        <members>SiteFooter</members>
+        <members>SiteHeader</members>
+        <members>SiteLogin</members>
+        <members>SitePoweredBy</members>
+        <name>ApexComponent</name>
+    </types>
+    <types>
+        <members>AnswersHome</members>
+        <members>BandwidthExceeded</members>
+        <members>ChangePassword</members>
+        <members>CommunitiesLanding</members>
+        <members>CommunitiesLogin</members>
+        <members>CommunitiesSelfReg</members>
+        <members>CommunitiesSelfRegConfirm</members>
+        <members>CommunitiesTemplate</members>
+        <members>Exception</members>
+        <members>FileNotFound</members>
+        <members>ForgotPassword</members>
+        <members>ForgotPasswordConfirm</members>
+        <members>IdeasHome</members>
+        <members>InMaintenance</members>
+        <members>MyProfilePage</members>
+        <members>SiteLogin</members>
+        <members>SiteRegister</members>
+        <members>SiteRegisterConfirm</members>
+        <members>SiteTemplate</members>
+        <members>StdExceptionTemplate</members>
+        <members>Unauthorized</members>
+        <members>UnderConstruction</members>
+        <name>ApexPage</name>
     </types>
     <types>
         <members>RestrictContactByName</members>
@@ -30,9 +84,20 @@
         <name>AssignmentRules</name>
     </types>
     <types>
+        <members>forgotPassword</members>
+        <members>loginForm</members>
+        <members>selfRegister</members>
+        <members>setStartUrl</members>
+        <name>AuraDefinitionBundle</name>
+    </types>
+    <types>
         <members>Case</members>
         <members>Lead</members>
         <name>AutoResponseRules</name>
+    </types>
+    <types>
+        <members>Opportunity.Factory</members>
+        <name>BusinessProcess</name>
     </types>
     <types>
         <members>DataCloudGeoLocation</members>
@@ -65,6 +130,7 @@
         <members>Account.SLASerialNumber__c</members>
         <members>Account.SLA__c</members>
         <members>Account.UpsellOpportunity__c</members>
+        <members>Asset.Opportunity__c</members>
         <members>Case.EngineeringReqNumber__c</members>
         <members>Case.PotentialLiability__c</members>
         <members>Case.Product__c</members>
@@ -140,12 +206,19 @@
         <name>CustomObject</name>
     </types>
     <types>
+        <members>AR</members>
+        <name>CustomSite</name>
+    </types>
+    <types>
         <members>Contact.Standard_Rule_for_Contacts_with_Duplicate_Leads</members>
         <members>Lead.Standard_Rule_for_Leads_with_Duplicate_Contacts</members>
         <name>DuplicateRule</name>
     </types>
     <types>
         <members>unfiled$public</members>
+        <members>unfiled$public/CommunityChangePasswordEmailTemplate</members>
+        <members>unfiled$public/CommunityForgotPasswordEmailTemplate</members>
+        <members>unfiled$public/CommunityWelcomeEmailTemplate</members>
         <name>EmailTemplate</name>
     </types>
     <types>
@@ -162,8 +235,19 @@
         <name>FlexiPage</name>
     </types>
     <types>
+        <members>Update_Asset_Status-1</members>
+        <members>Update_Asset_Status-2</members>
+        <members>Update_Asset_Status-3</members>
+        <members>Update_Asset_Status-4</members>
+        <name>Flow</name>
+    </types>
+    <types>
         <members>DE Default</members>
         <name>HomePageLayout</name>
+    </types>
+    <types>
+        <members>AR.Banned</members>
+        <name>KeywordList</name>
     </types>
     <types>
         <members>Account-Account %28Marketing%29 Layout</members>
@@ -271,6 +355,10 @@
         <name>ListView</name>
     </types>
     <types>
+        <members>AR</members>
+        <name>ManagedTopics</name>
+    </types>
+    <types>
         <members>Account.Standard_Account_Match_Rule_v1_0</members>
         <members>Contact.Standard_Contact_Match_Rule_v1_1</members>
         <members>Lead.Standard_Lead_Match_Rule_v1_0</members>
@@ -283,6 +371,19 @@
         <name>MatchingRules</name>
     </types>
     <types>
+        <members>AR.Block_banned_keywords</members>
+        <members>AR.Flag_banned</members>
+        <members>AR.Freeze_for_frequent_posting</members>
+        <members>AR.Replace_banned</members>
+        <members>AR.Review_the_first_post</members>
+        <name>ModerationRule</name>
+    </types>
+    <types>
+        <members>AR</members>
+        <name>Network</name>
+    </types>
+    <types>
+        <members>AR Profile</members>
         <members>Admin</members>
         <members>Analytics Cloud Integration User</members>
         <members>Analytics Cloud Security User</members>
@@ -305,6 +406,7 @@
         <members>Force%2Ecom - App Subscription User</members>
         <members>Force%2Ecom - Free User</members>
         <members>Gold Partner User</members>
+        <members>Guest</members>
         <members>High Volume Customer Portal User</members>
         <members>HighVolumePortal</members>
         <members>Identity User</members>
@@ -350,6 +452,7 @@
     <types>
         <members>Metric.Completion</members>
         <members>Metric.Progress</members>
+        <members>Opportunity.Factory</members>
         <name>RecordType</name>
     </types>
     <types>
@@ -482,6 +585,16 @@
         <name>StandardValueSet</name>
     </types>
     <types>
+        <members>SiteSamples</members>
+        <name>StaticResource</name>
+    </types>
+    <types>
+        <members>AR.Customer_Members</members>
+        <members>AR.Members_without_contribution</members>
+        <members>AR.Partner_and_Customer_members</members>
+        <name>UserCriteria</name>
+    </types>
+    <types>
         <members>Account.Billing</members>
         <members>Campaign.ViewCampaignInfluenceReport</members>
         <members>Case.UpsellCrosssellOpportunity</members>
@@ -526,4 +639,5 @@
         <members>UserProvisioningRequest</members>
         <name>Workflow</name>
     </types>
+    <version>40.0</version>
 </Package>
