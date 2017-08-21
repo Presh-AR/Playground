@@ -3,6 +3,7 @@
     <version>39.0</version>
     <types>
         <members>AutoRabitAntigoniTest</members>
+        <members>CognizantTest</members>
         <members>EmailManager</members>
         <members>EmailManager_Dup1</members>
         <members>EmailManager_Dup2</members>
