@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
         <members>AutoRabitAntigoniTest</members>
-        <members>ChangePasswordController</members>
-        <members>ChangePasswordControllerTest</members>
-        <members>CommunitiesLandingController</members>
-        <members>CommunitiesLandingControllerTest</members>
-        <members>CommunitiesLoginController</members>
-        <members>CommunitiesLoginControllerTest</members>
-        <members>CommunitiesSelfRegConfirmController</members>
-        <members>CommunitiesSelfRegConfirmControllerTest</members>
-        <members>CommunitiesSelfRegController</members>
-        <members>CommunitiesSelfRegControllerTest</members>
+        <members>CognizantTest</members>
         <members>EmailManager</members>
         <members>EmailManager_Dup1</members>
         <members>EmailManager_Dup2</members>
