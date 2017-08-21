@@ -30,6 +30,7 @@
         <members>SiteRegisterControllerTest</members>
         <members>StringArrayTest</members>
         <members>TestRestrictContactByName</members>
+        <members>XYX</members>
         <name>ApexClass</name>
     </types>
     <types>
@@ -152,6 +153,10 @@
         <name>CustomField</name>
     </types>
     <types>
+        <members>CanadaLabel</members>
+        <name>CustomLabel</name>
+    </types>
+    <types>
         <members>CustomLabels</members>
         <name>CustomLabels</name>
     </types>
@@ -165,6 +170,7 @@
         <members>AssistantProgress</members>
         <members>Campaign</members>
         <members>CampaignMember</members>
+        <members>CanadaSettings__c</members>
         <members>Case</members>
         <members>CaseContactRole</members>
         <members>Contact</members>
@@ -206,8 +212,8 @@
         <name>CustomObject</name>
     </types>
     <types>
-        <members>AR</members>
-        <name>CustomSite</name>
+        <members>Deployment</members>
+        <name>CustomPermission</name>
     </types>
     <types>
         <members>Contact.Standard_Rule_for_Contacts_with_Duplicate_Leads</members>
@@ -235,11 +241,8 @@
         <name>FlexiPage</name>
     </types>
     <types>
-        <members>Update_Asset_Status-1</members>
-        <members>Update_Asset_Status-2</members>
-        <members>Update_Asset_Status-3</members>
-        <members>Update_Asset_Status-4</members>
-        <name>Flow</name>
+        <members>DeploymentPG</members>
+        <name>Group</name>
     </types>
     <types>
         <members>DE Default</members>
@@ -254,6 +257,7 @@
         <members>Account-Account %28Sales%29 Layout</members>
         <members>Account-Account %28Support%29 Layout</members>
         <members>Account-Account Layout</members>
+        <members>Account-DemoLayout</members>
         <members>Asset-Asset Layout</members>
         <members>Campaign-Campaign Layout</members>
         <members>CampaignMember-Campaign Member Page Layout</members>
@@ -402,6 +406,7 @@
         <members>Customer Community User</members>
         <members>Customer Portal Manager Custom</members>
         <members>Customer Portal Manager Standard</members>
+        <members>DemoProfile</members>
         <members>External Identity User</members>
         <members>Force%2Ecom - App Subscription User</members>
         <members>Force%2Ecom - Free User</members>
@@ -467,6 +472,7 @@
         <members>CEO</members>
         <members>CFO</members>
         <members>COO</members>
+        <members>CanadaPM</members>
         <members>ChannelSalesTeam</members>
         <members>CustomerSupportInternational</members>
         <members>CustomerSupportNorthAmerica</members>
