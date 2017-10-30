@@ -146,6 +146,7 @@
         <members>StreamingChannel</members>
         <members>Task</members>
         <members>TestCognizant__c</members>
+        <members>Test_Obj__c</members>
         <members>User</members>
         <members>UserProvisioningRequest</members>
         <name>CustomObject</name>
