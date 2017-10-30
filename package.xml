@@ -84,6 +84,7 @@
         <members>Metric.OrigMetricId__c</members>
         <members>Opportunity.CurrentGenerators__c</members>
         <members>Opportunity.DeliveryInstallationStatus__c</members>
+        <members>Opportunity.Enzigma_Opp_Field1__c</members>
         <members>Opportunity.MainCompetitors__c</members>
         <members>Opportunity.OrderNumber__c</members>
         <members>Opportunity.TrackingNumber__c</members>
@@ -308,6 +309,10 @@
         <name>MatchingRules</name>
     </types>
     <types>
+        <members>Enzigma_POC_PermissionSet</members>
+        <name>PermissionSet</name>
+    </types>
+    <types>
         <members>Admin</members>
         <members>Analytics Cloud Integration User</members>
         <members>Analytics Cloud Security User</members>
@@ -327,6 +332,7 @@
         <members>Customer Portal Manager Custom</members>
         <members>Customer Portal Manager Standard</members>
         <members>DemoProfile</members>
+        <members>Enzigma POC CP</members>
         <members>External Identity User</members>
         <members>Fluido Custom Profile</members>
         <members>Force%2Ecom - App Subscription User</members>
