@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Translations xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customLabels>
+        <label>WHAT&apos;S ON</label>
+        <name>BrowseUI_Whats_On</name>
+    </customLabels>
+    <customLabels>
+        <label>Version %{version}</label>
+        <name>daznui_browseui_appVersion</name>
+    </customLabels>
+</Translations>

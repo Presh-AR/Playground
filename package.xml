@@ -3,17 +3,74 @@
     <version>40.0</version>
     <types>
         <members>AutoRabitAntigoniTest</members>
+        <members>ChangePasswordController</members>
+        <members>ChangePasswordControllerTest</members>
         <members>CognizantTest</members>
+        <members>CommunitiesLandingController</members>
+        <members>CommunitiesLandingControllerTest</members>
+        <members>CommunitiesLoginController</members>
+        <members>CommunitiesLoginControllerTest</members>
+        <members>CommunitiesSelfRegConfirmController</members>
+        <members>CommunitiesSelfRegConfirmControllerTest</members>
+        <members>CommunitiesSelfRegController</members>
+        <members>CommunitiesSelfRegControllerTest</members>
         <members>CreateAccount</members>
         <members>EmailManager</members>
         <members>EmailManager_Dup1</members>
         <members>EmailManager_Dup2</members>
+        <members>FluidoDemoClass</members>
+        <members>ForgotPasswordController</members>
+        <members>ForgotPasswordControllerTest</members>
+        <members>LightningForgotPasswordController</members>
+        <members>LightningForgotPasswordControllerTest</members>
+        <members>LightningLoginFormController</members>
+        <members>LightningLoginFormControllerTest</members>
+        <members>LightningSelfRegisterController</members>
+        <members>LightningSelfRegisterControllerTest</members>
         <members>MYDemoHandler</members>
+        <members>MyProfilePageController</members>
+        <members>MyProfilePageControllerTest</members>
+        <members>SiteLoginController</members>
+        <members>SiteLoginControllerTest</members>
+        <members>SiteRegisterController</members>
+        <members>SiteRegisterControllerTest</members>
         <members>StringArrayTest</members>
         <members>TestNewClassCognizant</members>
         <members>TestRestrictContactByName</members>
         <members>XYX</members>
         <name>ApexClass</name>
+    </types>
+    <types>
+        <members>SiteFooter</members>
+        <members>SiteHeader</members>
+        <members>SiteLogin</members>
+        <members>SitePoweredBy</members>
+        <name>ApexComponent</name>
+    </types>
+    <types>
+        <members>AnswersHome</members>
+        <members>BandwidthExceeded</members>
+        <members>ChangePassword</members>
+        <members>CommunitiesLanding</members>
+        <members>CommunitiesLogin</members>
+        <members>CommunitiesSelfReg</members>
+        <members>CommunitiesSelfRegConfirm</members>
+        <members>CommunitiesTemplate</members>
+        <members>Exception</members>
+        <members>FileNotFound</members>
+        <members>ForgotPassword</members>
+        <members>ForgotPasswordConfirm</members>
+        <members>IdeasHome</members>
+        <members>InMaintenance</members>
+        <members>MyProfilePage</members>
+        <members>SiteLogin</members>
+        <members>SiteRegister</members>
+        <members>SiteRegisterConfirm</members>
+        <members>SiteTemplate</members>
+        <members>StdExceptionTemplate</members>
+        <members>Unauthorized</members>
+        <members>UnderConstruction</members>
+        <name>ApexPage</name>
     </types>
     <types>
         <members>LeadTriggers</members>
@@ -36,9 +93,20 @@
         <name>AssignmentRules</name>
     </types>
     <types>
+        <members>forgotPassword</members>
+        <members>loginForm</members>
+        <members>selfRegister</members>
+        <members>setStartUrl</members>
+        <name>AuraDefinitionBundle</name>
+    </types>
+    <types>
         <members>Case</members>
         <members>Lead</members>
         <name>AutoResponseRules</name>
+    </types>
+    <types>
+        <members>Opportunity.Factory</members>
+        <name>BusinessProcess</name>
     </types>
     <types>
         <members>DataCloudGeoLocation</members>
@@ -54,6 +122,8 @@
         <members>standard__Community</members>
         <members>standard__Content</members>
         <members>standard__LightningSales</members>
+        <members>standard__LightningSalesConsole</members>
+        <members>standard__LightningService</members>
         <members>standard__Marketing</members>
         <members>standard__Platform</members>
         <members>standard__Sales</members>
@@ -71,15 +141,20 @@
         <members>Account.SLASerialNumber__c</members>
         <members>Account.SLA__c</members>
         <members>Account.UpsellOpportunity__c</members>
+        <members>Asset.Opportunity__c</members>
+        <members>BetaConfiguration__c.CountryCode__c</members>
+        <members>BetaConfiguration__c.Country__c</members>
         <members>Case.EngineeringReqNumber__c</members>
         <members>Case.PotentialLiability__c</members>
         <members>Case.Product__c</members>
         <members>Case.SLAViolation__c</members>
         <members>Contact.Languages__c</members>
         <members>Contact.Level__c</members>
+        <members>Fluido_Custom_Object__c.Fluido_Custom_Field__c</members>
         <members>Goal.OrigGoalId__c</members>
         <members>Lead.CurrentGenerators__c</members>
         <members>Lead.Locale__c</members>
+        <members>Lead.New_Campaign__c</members>
         <members>Lead.NumberofLocations__c</members>
         <members>Lead.Primary__c</members>
         <members>Lead.ProductInterest__c</members>
@@ -94,7 +169,9 @@
         <name>CustomField</name>
     </types>
     <types>
+        <members>BrowseUI_Whats_On</members>
         <members>CanadaLabel</members>
+        <members>daznui_browseui_appVersion</members>
         <name>CustomLabel</name>
     </types>
     <types>
@@ -109,6 +186,7 @@
         <members>Asset</members>
         <members>AssetRelationship</members>
         <members>AssistantProgress</members>
+        <members>BetaConfiguration__c</members>
         <members>Campaign</members>
         <members>CampaignMember</members>
         <members>CanadaSettings__c</members>
@@ -126,8 +204,10 @@
         <members>Event</members>
         <members>ExchangeUserMapping</members>
         <members>FeedItem</members>
+        <members>Fluido_Custom_Object__c</members>
         <members>ForecastingCategoryMapping</members>
         <members>Idea</members>
+        <members>Knowledge__kav</members>
         <members>Lead</members>
         <members>LeadCleanInfo</members>
         <members>Macro</members>
@@ -159,8 +239,18 @@
         <name>CustomPermission</name>
     </types>
     <types>
+        <members>AR</members>
+        <name>CustomSite</name>
+    </types>
+    <types>
+        <members>Knowledge__kav</members>
         <members>TestCognizant__c</members>
         <name>CustomTab</name>
+    </types>
+    <types>
+        <members>Test</members>
+        <members>Test/TestDashboard</members>
+        <name>Dashboard</name>
     </types>
     <types>
         <members>Contact.Standard_Rule_for_Contacts_with_Duplicate_Leads</members>
@@ -169,6 +259,22 @@
     </types>
     <types>
         <members>unfiled$public</members>
+        <members>unfiled$public/CommunityChangePasswordEmailTemplate</members>
+        <members>unfiled$public/CommunityForgotPasswordEmailTemplate</members>
+        <members>unfiled$public/CommunityWelcomeEmailTemplate</members>
+        <members>unfiled$public/MarketingProductInquiryResponse</members>
+        <members>unfiled$public/SUPPORTSelfServiceNewCommentNotificationSAMPLE</members>
+        <members>unfiled$public/SUPPORTSelfServiceNewUserLoginInformationSAMPLE</members>
+        <members>unfiled$public/SUPPORTSelfServiceResetPasswordSAMPLE</members>
+        <members>unfiled$public/SalesNewCustomerEmail</members>
+        <members>unfiled$public/SupportCaseAssignmentNotification</members>
+        <members>unfiled$public/SupportCaseCreatedPhoneInquiries</members>
+        <members>unfiled$public/SupportCaseCreatedWebInquiries</members>
+        <members>unfiled$public/SupportCaseResponse</members>
+        <members>unfiled$public/SupportEscalatedCaseNotification</members>
+        <members>unfiled$public/SupportEscalatedCaseReassignment</members>
+        <members>unfiled$public/SupportSelfServiceNewLoginandPassword</members>
+        <members>unfiled$public/SupportSelfServiceResetPassword</members>
         <name>EmailTemplate</name>
     </types>
     <types>
@@ -185,6 +291,20 @@
         <name>FlexiPage</name>
     </types>
     <types>
+        <members>Fluido_Demo_Process-1</members>
+        <members>Update_Asset_Status-1</members>
+        <members>Update_Asset_Status-2</members>
+        <members>Update_Asset_Status-3</members>
+        <members>Update_Asset_Status-4</members>
+        <members>Update_Asset_Status-5</members>
+        <name>Flow</name>
+    </types>
+    <types>
+        <members>Fluido_Demo_Process</members>
+        <members>Update_Asset_Status</members>
+        <name>FlowDefinition</name>
+    </types>
+    <types>
         <members>DeploymentPG</members>
         <name>Group</name>
     </types>
@@ -193,9 +313,16 @@
         <name>HomePageLayout</name>
     </types>
     <types>
+        <members>AR.Banned</members>
+        <name>KeywordList</name>
+    </types>
+    <types>
         <members>Account-Account %28Marketing%29 Layout</members>
         <members>Account-Account %28Sales%29 Layout</members>
         <members>Account-Account %28Support%29 Layout</members>
+        <members>Account-Account (Marketing) Layout</members>
+        <members>Account-Account (Sales) Layout</members>
+        <members>Account-Account (Support) Layout</members>
         <members>Account-Account Layout</members>
         <members>Account-DemoLayout</members>
         <members>Asset-Asset Layout</members>
@@ -204,11 +331,17 @@
         <members>Case-Case %28Marketing%29 Layout</members>
         <members>Case-Case %28Sales%29 Layout</members>
         <members>Case-Case %28Support%29 Layout</members>
+        <members>Case-Case (Marketing) Layout</members>
+        <members>Case-Case (Sales) Layout</members>
+        <members>Case-Case (Support) Layout</members>
         <members>Case-Case Layout</members>
         <members>CaseClose-Close Case Layout</members>
         <members>Contact-Contact %28Marketing%29 Layout</members>
         <members>Contact-Contact %28Sales%29 Layout</members>
         <members>Contact-Contact %28Support%29 Layout</members>
+        <members>Contact-Contact (Marketing) Layout</members>
+        <members>Contact-Contact (Sales) Layout</members>
+        <members>Contact-Contact (Support) Layout</members>
         <members>Contact-Contact Layout</members>
         <members>ContentVersion-Content Version Layout</members>
         <members>Contract-Contract Layout</members>
@@ -216,16 +349,24 @@
         <members>DuplicateRecordSet-Duplicate Record Set Layout</members>
         <members>EmailMessage-Email Message Layout</members>
         <members>Event-Event Layout</members>
+        <members>Fluido_Custom_Object__c-Fluido Custom Object Layout</members>
         <members>Global-Global Layout</members>
         <members>Idea-Idea Layout</members>
+        <members>Knowledge__kav-Knowledge Layout</members>
         <members>Lead-Lead %28Marketing%29 Layout</members>
         <members>Lead-Lead %28Sales%29 Layout</members>
         <members>Lead-Lead %28Support%29 Layout</members>
+        <members>Lead-Lead (Marketing) Layout</members>
+        <members>Lead-Lead (Sales) Layout</members>
+        <members>Lead-Lead (Support) Layout</members>
         <members>Lead-Lead Layout</members>
         <members>Macro-Macro Layout</members>
         <members>Opportunity-Opportunity %28Marketing%29 Layout</members>
         <members>Opportunity-Opportunity %28Sales%29 Layout</members>
         <members>Opportunity-Opportunity %28Support%29 Layout</members>
+        <members>Opportunity-Opportunity (Marketing) Layout</members>
+        <members>Opportunity-Opportunity (Sales) Layout</members>
+        <members>Opportunity-Opportunity (Support) Layout</members>
         <members>Opportunity-Opportunity Layout</members>
         <members>OpportunityLineItem-Opportunity Product Layout</members>
         <members>Order-Order Layout</members>
@@ -233,9 +374,12 @@
         <members>Pricebook2-Price Book Layout</members>
         <members>PricebookEntry-Price Book Entry Layout</members>
         <members>Product2-Product Layout</members>
+        <members>Scorecard-Scorecard Layout</members>
+        <members>ScorecardMetric-Scorecard Metric Layout</members>
         <members>Solution-Solution Layout</members>
         <members>Task-Task Layout</members>
         <members>TestCognizant__c-TestCognizant Layout</members>
+        <members>Test_Obj__c-Test Obj Layout</members>
         <members>User-User Layout</members>
         <members>UserProvAccount-User Provisioning Account Layout</members>
         <members>UserProvisioningLog-User Provisioning Log Layout</members>
@@ -271,6 +415,9 @@
         <members>Contract.MyActivatedContracts</members>
         <members>Contract.MyDraftContracts</members>
         <members>Contract.MyInApprovalContracts</members>
+        <members>Knowledge__kav.archived_articles</members>
+        <members>Knowledge__kav.draft_articles</members>
+        <members>Knowledge__kav.published_articles</members>
         <members>Lead.AllOpenLeads</members>
         <members>Lead.MyUnreadLeads</members>
         <members>Lead.TodaysLeads</members>
@@ -301,6 +448,10 @@
         <name>ListView</name>
     </types>
     <types>
+        <members>AR</members>
+        <name>ManagedTopics</name>
+    </types>
+    <types>
         <members>Account.Standard_Account_Match_Rule_v1_0</members>
         <members>Contact.Standard_Contact_Match_Rule_v1_1</members>
         <members>Lead.Standard_Lead_Match_Rule_v1_0</members>
@@ -311,6 +462,18 @@
         <members>Contact</members>
         <members>Lead</members>
         <name>MatchingRules</name>
+    </types>
+    <types>
+        <members>AR.Block_banned_keywords</members>
+        <members>AR.Flag_banned</members>
+        <members>AR.Freeze_for_frequent_posting</members>
+        <members>AR.Replace_banned</members>
+        <members>AR.Review_the_first_post</members>
+        <name>ModerationRule</name>
+    </types>
+    <types>
+        <members>AR</members>
+        <name>Network</name>
     </types>
     <types>
         <members>Enzigma_POC_PermissionSet</members>
@@ -329,6 +492,9 @@
         <members>Custom%3A Marketing Profile</members>
         <members>Custom%3A Sales Profile</members>
         <members>Custom%3A Support Profile</members>
+        <members>Custom: Marketing Profile</members>
+        <members>Custom: Sales Profile</members>
+        <members>Custom: Support Profile</members>
         <members>Customer Community Login User</members>
         <members>Customer Community Plus Login User</members>
         <members>Customer Community Plus User</members>
@@ -347,6 +513,7 @@
         <members>HighVolumePortal</members>
         <members>Identity User</members>
         <members>MarketingProfile</members>
+        <members>NewBetterAdmin</members>
         <members>Partner App Subscription User</members>
         <members>Partner Community Login User</members>
         <members>Partner Community User</members>
@@ -360,6 +527,15 @@
         <name>Profile</name>
     </types>
     <types>
+        <members>NewBetterAdmin_profilePasswordPolicy1507122720125</members>
+        <name>ProfilePasswordPolicy</name>
+    </types>
+    <types>
+        <members>NewBetterAdmin_profileSessionSetting1507122720174</members>
+        <name>ProfileSessionSetting</name>
+    </types>
+    <types>
+        <members>Case.LogACall</members>
         <members>Case.NewChildCase</members>
         <members>CollaborationGroup.NewGroupMember</members>
         <members>CollaborationGroup.NewGroupRecord</members>
@@ -386,12 +562,15 @@
         <name>QuickAction</name>
     </types>
     <types>
+        <members>Account.Fluido_Record_Type</members>
         <members>Metric.Completion</members>
         <members>Metric.Progress</members>
+        <members>Opportunity.Factory</members>
         <name>RecordType</name>
     </types>
     <types>
         <members>ApexDevNet</members>
+        <members>Billing_Application</members>
         <name>RemoteSiteSetting</name>
     </types>
     <types>
@@ -519,6 +698,22 @@
         <members>WorkOrderPriority</members>
         <members>WorkOrderStatus</members>
         <name>StandardValueSet</name>
+    </types>
+    <types>
+        <members>SiteSamples</members>
+        <name>StaticResource</name>
+    </types>
+    <types>
+        <members>en_US</members>
+        <members>fr</members>
+        <members>ja</members>
+        <name>Translations</name>
+    </types>
+    <types>
+        <members>AR.Customer_Members</members>
+        <members>AR.Members_without_contribution</members>
+        <members>AR.Partner_and_Customer_members</members>
+        <name>UserCriteria</name>
     </types>
     <types>
         <members>Account.Billing</members>

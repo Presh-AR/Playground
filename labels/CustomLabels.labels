@@ -1,10 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
     <labels>
+        <fullName>BrowseUI_Whats_On</fullName>
+        <categories>DAZNUI, browseui</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>BrowseUI - Whats On</shortDescription>
+        <value>WHAT&apos;S ON</value>
+    </labels>
+    <labels>
         <fullName>CanadaLabel</fullName>
         <language>en_US</language>
         <protected>true</protected>
         <shortDescription>CanadaLabel</shortDescription>
         <value>This is for Canada [CanadaCountryName]</value>
+    </labels>
+    <labels>
+        <fullName>daznui_browseui_appVersion</fullName>
+        <categories>UI, Sign In, Sign Out</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>daznui browseui appVersion</shortDescription>
+        <value>Version %{version}</value>
     </labels>
 </CustomLabels>
