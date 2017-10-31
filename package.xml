@@ -28,6 +28,7 @@
         <members>LightningSelfRegisterController</members>
         <members>LightningSelfRegisterControllerTest</members>
         <members>MYDemoHandler</members>
+        <members>MYDemoHandlerTest</members>
         <members>MyProfilePageController</members>
         <members>MyProfilePageControllerTest</members>
         <members>SiteLoginController</members>
