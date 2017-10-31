@@ -19,42 +19,11 @@
         <members>SiteLoginControllerTest</members>
         <members>SiteRegisterController</members>
         <members>SiteRegisterControllerTest</members>
+        <members>MYDemoHandler</members>
         <members>StringArrayTest</members>
         <members>TestRestrictContactByName</members>
         <members>XYX</members>
         <name>ApexClass</name>
-    </types>
-    <types>
-        <members>SiteFooter</members>
-        <members>SiteHeader</members>
-        <members>SiteLogin</members>
-        <members>SitePoweredBy</members>
-        <name>ApexComponent</name>
-    </types>
-    <types>
-        <members>AnswersHome</members>
-        <members>BandwidthExceeded</members>
-        <members>ChangePassword</members>
-        <members>CommunitiesLanding</members>
-        <members>CommunitiesLogin</members>
-        <members>CommunitiesSelfReg</members>
-        <members>CommunitiesSelfRegConfirm</members>
-        <members>CommunitiesTemplate</members>
-        <members>Exception</members>
-        <members>FileNotFound</members>
-        <members>ForgotPassword</members>
-        <members>ForgotPasswordConfirm</members>
-        <members>IdeasHome</members>
-        <members>InMaintenance</members>
-        <members>MyProfilePage</members>
-        <members>SiteLogin</members>
-        <members>SiteRegister</members>
-        <members>SiteRegisterConfirm</members>
-        <members>SiteTemplate</members>
-        <members>StdExceptionTemplate</members>
-        <members>Unauthorized</members>
-        <members>UnderConstruction</members>
-        <name>ApexPage</name>
     </types>
     <types>
         <members>RestrictContactByName</members>
@@ -131,6 +100,7 @@
         <members>Contact.Level__c</members>
         <members>Goal.OrigGoalId__c</members>
         <members>Lead.CurrentGenerators__c</members>
+        <members>Lead.Locale__c</members>
         <members>Lead.NumberofLocations__c</members>
         <members>Lead.Primary__c</members>
         <members>Lead.ProductInterest__c</members>
@@ -398,6 +368,8 @@
         <members>Customer Portal Manager Custom</members>
         <members>Customer Portal Manager Standard</members>
         <members>DemoProfile</members>
+        <members>Enzigma POC CP</members>
+        <members>Enzigma System Admin</members>
         <members>External Identity User</members>
         <members>Force%2Ecom - App Subscription User</members>
         <members>Force%2Ecom - Free User</members>
