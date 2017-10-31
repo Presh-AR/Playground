@@ -8,6 +8,7 @@
         <members>EmailManager</members>
         <members>EmailManager_Dup1</members>
         <members>EmailManager_Dup2</members>
+        <members>MYDemoHandler</members>
         <members>StringArrayTest</members>
         <members>TestNewClassCognizant</members>
         <members>TestRestrictContactByName</members>
@@ -15,6 +16,7 @@
         <name>ApexClass</name>
     </types>
     <types>
+        <members>LeadTriggers</members>
         <members>RestrictContactByName</members>
         <name>ApexTrigger</name>
     </types>
@@ -77,6 +79,7 @@
         <members>Contact.Level__c</members>
         <members>Goal.OrigGoalId__c</members>
         <members>Lead.CurrentGenerators__c</members>
+        <members>Lead.Locale__c</members>
         <members>Lead.NumberofLocations__c</members>
         <members>Lead.Primary__c</members>
         <members>Lead.ProductInterest__c</members>
@@ -334,6 +337,7 @@
         <members>Customer Portal Manager Standard</members>
         <members>DemoProfile</members>
         <members>Enzigma POC CP</members>
+        <members>Enzigma System Admin</members>
         <members>External Identity User</members>
         <members>Fluido Custom Profile</members>
         <members>Force%2Ecom - App Subscription User</members>
