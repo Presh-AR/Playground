@@ -1,3 +1,4 @@
 trigger LeadTriggers on Lead (before insert) {
-	MYDemoHandler.test();    
+	MYDemoHandler.test(); 
+    System.debug('Trigger CI Jobs');
 }
